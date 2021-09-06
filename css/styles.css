@@ -1,0 +1,147 @@
+/*********************************TAG SELECTORS*********************************/
+body {
+  background-image: url("../images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-color: #dfe8ff;
+  font-family: "Red Hat Display", sans-serif;
+  margin: 100px auto;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 17px;
+}
+
+h1 {
+  font-size: 1.7rem;
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+  margin: 0px;
+  padding-bottom: 10px;
+}
+
+p {
+  color: hsl(224, 23%, 55%);
+  margin: 0px;
+}
+
+a {
+  color: hsl(245, 75%, 52%);
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+button {
+  height: 50px;
+}
+
+/*********************************CLASS SELECTORS*********************************/
+.hero-image {
+  border-top-left-radius: 1.25rem;
+  border-top-right-radius: 1.25rem;
+}
+
+.summary-container {
+  background-color: #fff;
+  width: 450px;
+  margin: auto;
+  border-radius: 1.25rem;
+  height: 700px;
+  box-shadow: 0 6px 20px 0 rgba(55, 42, 224, 0.2);
+}
+
+.summary-text {
+  margin: 40px 60px;
+}
+
+.summary-info {
+  padding-top: 5px;
+}
+
+.annual-plan {
+  display: inline-table;
+  text-align: left;
+}
+
+.plan-icon {
+  padding-right: 15px;
+}
+
+.plan-info {
+  vertical-align: top;
+}
+
+.plan-text {
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+  padding-right: 100px;
+}
+
+.plan-change {
+  font-size: 0.85rem;
+}
+
+.plan-change:hover a {
+  color: hsl(223, 47%, 23%);
+  text-decoration: none;
+}
+
+.payment-button {
+  margin: 10% auto 6%;
+}
+
+.payment {
+  background-color: hsl(245, 75%, 52%);
+  font-weight: 900;
+  font-size: 0.95rem;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  width: 80%;
+  box-shadow: 0px 15px 20px rgba(55, 42, 224, 0.2);
+}
+
+.payment:hover {
+  background-color: hsl(223, 47%, 23%);
+}
+
+.cancel-order {
+  color: hsl(224, 23%, 55%);
+  font-weight: 900;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.cancel-order:hover {
+  color: hsl(223, 47%, 23%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 30px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  font-size: 11px;
+}
+
+/*********************************ID SELECTORS*********************************/
+
+/*********************************MOBILE SELECTORS*********************************/
+@media screen and (max-width: 375px) {
+  body {
+    background-image: url("../images/pattern-background-mobile.svg");
+    margin: auto auto;
+  }
+
+  .summary-container {
+    transform: scale(0.8, 0.8);
+    -ms-transform: scale(0.8, 0.8); /* IE 9 */
+    -webkit-transform: scale(0.8, 0.8); /* Safari and Chrome */
+    -o-transform: scale(0.8, 0.8); /* Opera */
+    -moz-transform: scale(0.8, 0.8); /* Firefox */
+  }
+
+  .attribution {
+    margin-top: auto;
+  }
+}
