@@ -35,7 +35,7 @@ Hover Link State
 ### Links
 
 - Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/order-summary-site-using-html-and-custom-css-yiy85qpwR)
-- Live Site URL: [Add live site URL here](https://bmoore15v.github.io/FM-Order-Summary-Challenge/)
+- Live Site URL: [Add live site URL here](https://bmoore15v.github.io/FM-OrderSummaryChallenge/)
 
 ## My process
 
